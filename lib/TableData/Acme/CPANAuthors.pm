@@ -55,7 +55,17 @@ with 'TableDataRole::Acme::CPANAuthors';
 1;
 # ABSTRACT: Authors listed in a Acme::CPANAuthors::* module
 
+=head1 SYNOPSIS
+
+Using from the CLI:
+
+ % tabledata Acme/CPANAuthors=module,Indonesian
+
+
 =head1 DESCRIPTION
+
+A quick way to list the contents of an Acme::CPANAuthors::* module in table
+form.
 
 This table gets its data dynamically by querying L<Acme::CPANAuthors> (and the
 specific authors module, e.g. L<Acme::CPANAuthors::Indonesian>).
