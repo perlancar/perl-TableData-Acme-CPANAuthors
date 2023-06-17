@@ -88,3 +88,10 @@ Known arguments:
 Required.
 
 =back
+
+
+=head1 SEE ALSO
+
+L<Acme::CPANAuthors>
+
+L<acme-cpanauthors> from L<App::AcmeCPANAuthors>
