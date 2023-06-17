@@ -65,7 +65,7 @@ Using from the CLI:
 =head1 DESCRIPTION
 
 A quick way to list the contents of an Acme::CPANAuthors::* module in table
-form.
+fXSorm.
 
 This table gets its data dynamically by querying L<Acme::CPANAuthors> (and the
 specific authors module, e.g. L<Acme::CPANAuthors::Indonesian>).
@@ -77,8 +77,8 @@ specific authors module, e.g. L<Acme::CPANAuthors::Indonesian>).
 
 Usage:
 
- my $table = TableDataRole::Acme::CPANAuthors->new(%args);
-
+ my $table = TableData::Acme::CPANAuthors->new(%args);
+`
 Known arguments:
 
 =over
