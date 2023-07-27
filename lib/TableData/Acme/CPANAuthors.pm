@@ -53,7 +53,7 @@ with 'TableDataRole::Acme::CPANAuthors';
 # STATS
 
 1;
-# ABSTRACT: Authors listed in a Acme::CPANAuthors::* module
+# ABSTRACT: Authors listed in an Acme::CPANAuthors::* module
 
 =head1 SYNOPSIS
 
